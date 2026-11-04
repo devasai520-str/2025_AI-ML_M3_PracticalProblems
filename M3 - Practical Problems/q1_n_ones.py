@@ -4,6 +4,9 @@ Input: integer n
 Output: integer with n 1s
 """
 def n_ones(n):
+     result = 0
+    for i in range(n):
+        result += 10**i
     return
 
 """ Test 1 """
