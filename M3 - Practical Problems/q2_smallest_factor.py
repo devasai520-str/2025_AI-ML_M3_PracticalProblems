@@ -4,6 +4,9 @@ Input: integer n
 Output: smallest factor of n greater than 1
 """
 def smallest_factor(n):
+    if (n == 1): return 1
+    for i in range(2, n):
+        if (n % i == 0): return i
     return
 
 """ Test 2 """
